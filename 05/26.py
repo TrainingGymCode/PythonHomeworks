@@ -12,7 +12,7 @@ def num_in_power(num: int, power: int) -> int:
       return num
     else:
       return num * num_in_power(num, power - 1)
-  # power = 0
+  # power < 0
   else:
     if power == -1:
       return 1 / num
