@@ -4,7 +4,7 @@
 # Также нельзя использовать циклы.
 
 arg1 = int(input('Input argument 1: '))
-arg2 = int(input('Input argument 1: '))
+arg2 = int(input('Input argument 2: '))
 
 def sum_of_two_args(arg1, arg2):
   if arg2 == 0:
